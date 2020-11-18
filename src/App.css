@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #202538;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #202538;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+  color: #60d9e9;
+  background-color: #202538;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links{
+  display: flex;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.nav-links li{
+  font-size: 16px;
+  font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+  color: #60d9e9;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  padding: 50px;
+  width: 50%;
+  font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro-name{
+  display: flex;
+  font-size: 50px;
+  margin: 0;
+  color: #60d9e9;
+  letter-spacing: 5px;
+}
+.intro-title{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  margin: 0px;
+  font-size: 25px;
+  color: #cabfdf;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.intro-content{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0px;
+  font-size: 18px;
+  color: #b9aadb;
+}
+
+.social{
+  top: 50%;
+  left: 10px;
+  position: fixed;
+}
+.social-links {
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
 }
