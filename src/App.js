@@ -12,10 +12,10 @@ export default class App extends Component {
     return (
       <div className='app-container'>
         <Header/>
-        <Social/>
         <About/>
         <Projects/>
         <Contact/>
+        <Social/>
       </div>
     );
   }

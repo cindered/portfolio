@@ -31,7 +31,7 @@ export default function NavLinks(props) {
                   to="contact-container"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={0}
                   duration={500}>contact
                </Link>
             </li>

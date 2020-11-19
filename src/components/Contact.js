@@ -3,10 +3,9 @@ import React from 'react';
 export default function Projects(props) {
    return(
       <div className="contact-container">
-         <section>
-            Want to contact me? Send a message!
-            <a href="mailto:asaas_96@hotmail.co.uk">message</a>
-         </section>
+            <p className="contact-title">Getting in touch</p>
+            <p className="contact-subtitle">Contact me</p>
+            <a className="contact-button" href="mailto:asaas_96@hotmail.co.uk">message</a>
       </div>
    );
  }
