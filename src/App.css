@@ -4,6 +4,7 @@
 
 body {
   background-color: #202538;
+  height: 100%;
 }
 
 .app-container {
@@ -11,12 +12,13 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #202538;
-  height: 100vh;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.app-header {
+.navbar {
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,6 +31,7 @@ body {
 }
 
 .nav-links{
+  margin: 0;
   display: flex;
   list-style-type: none;
 }
@@ -42,24 +45,28 @@ body {
   letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
+  transition: 0.2s;
 }
 
 .nav-links li:hover{
   color:#ded7eb;
-  transition: 0.25s;
+  transition: 0.2s;
+}
+
+.nav-links li > .active {
+  color: #ded7eb;
+  transition: 0.2s;
 }
 
 .about-container {
-  height: 100%;
+  height: 100vh;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 175px;
   padding: 50px;
-
   font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -89,18 +96,20 @@ body {
 }
 
 .projects-container{
-
-  margin-left: auto;
-  margin-right: auto;
+  height: 100vh;
+  width: 45%;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 50%;
-  background-color: azure;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
-.projects-title{
-
+#project-1{
+  background-color:#50597a;
+  padding: 25px 25px 25px 25px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 0px #1a1d2c;
 }
 
 .projects-name{
@@ -109,13 +118,13 @@ body {
 
 .social{
   top: 50%;
-  left: 15px;
+  left: 30px;
   position: fixed;
   border-left: solid 1.5px #60d9e9;
   border-image: linear-gradient(0deg, #202538 5%, #60d9e9 50%, #202538 95%) 1;
 }
 .social-links {
-  padding: 25px 10px 25px 10px;
+  padding: 25px 15px 25px 15px;
   margin: 0;
   list-style-type: none;
 }
@@ -127,7 +136,14 @@ body {
 .social-links a {
   text-decoration: none;
   color: #aca0c5;
+  transition: 0.2s;
 }
+.social-links a:hover {
+  padding-left: 5px;
+  transition: 0.2s;
+  color: #60d9e9;
+}
+
 .skills-container {
   padding: 45px 25px 0px 25px;
 }
@@ -151,4 +167,12 @@ body {
   display: flex;
   padding-right: 20px;
 
+}
+
+.contact-container {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
