@@ -134,6 +134,7 @@ body {
   width: 100%;
   background-color:#1a1d2c;
   padding: 25px 25px 25px 25px;
+  letter-spacing: 1px;
 }
 .card-content{
   color: #ded7eb;
@@ -148,6 +149,7 @@ body {
   background-color:#1a1d2c;
   padding: 25px 25px 25px 25px;
   font-size: 14px;
+  letter-spacing: 1px;
 }
 
 
@@ -249,5 +251,18 @@ body {
   border-top: solid 1px #202538;
   border-bottom: solid 1px #202538;
   color: #ded7eb;
+  transition: 0.2s;
+}
+
+.github-link{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 20px;
+  color: #aca0c5;
+  transition: 0.2s;
+}
+.github-link:hover{
+  color: #60d9e9;
   transition: 0.2s;
 }
