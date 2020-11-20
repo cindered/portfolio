@@ -19,7 +19,7 @@ export default function Projects(props) {
             A simple weather web application search engine created using React.js and WeatherStack API.
             "
             projectTech="[React.js, React Spring, WeatherStack API]"
-            projectLink="https://cindered.github.io/weather-app/"
+            projectLink="https://github.com/cindered/weather-app/"
          />
          <ProjectCard
             projectName="Chittr"
@@ -29,7 +29,7 @@ export default function Projects(props) {
             following and unfollowing features.
             "
             projectTech="[React-Native, Node.js, HTML, CSS]"
-            projectLink="https://cindered.github.io/chittr/"
+            projectLink="https://github.com/cindered/chittr/"
          />
       </div>
    );
