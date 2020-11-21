@@ -2,7 +2,7 @@
    Portfolio Website
 </h1>
 <p align="left">
-   This website was created using React.js hosted: 
+   This website was created using React.js hosted at: 
    <br>
 </p>
-[Live website link](https://cindered.github.io/portfolio/)
+https://cindered.github.io/portfolio/
