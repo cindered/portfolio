@@ -21,7 +21,7 @@ export default function NavLinks(props) {
                   to="projects-container"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-100}
                   duration={500}>projects
                </Link>
             </li>

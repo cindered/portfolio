@@ -156,6 +156,7 @@ body {
 .card-footer{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   color: #aca0c5;
   background-color:#1a1d2c;
   padding: 25px 25px 25px 25px;
