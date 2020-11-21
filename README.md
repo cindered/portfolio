@@ -3,6 +3,6 @@
 </h1>
 <p align="left">
    This website was created using React.js hosted: 
-   [Here](#https://cindered.github.io/portfolio/)
    <br>
+   https://cindered.github.io/portfolio/
 </p>
