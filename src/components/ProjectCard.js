@@ -2,6 +2,7 @@ import React from 'react';
 import { ImGithub } from "react-icons/im";
 
 export default function ProjectCard(props) {
+
    return(
       <div className="project-card">
          <div className="card-top">
@@ -11,9 +12,9 @@ export default function ProjectCard(props) {
             {props.projectDesc}
          </div>
          <div className="card-footer">
-            <p className="project-technologies">
-               {props.projectTech}
-            </p>
+            <ul className="project-technologies">
+               {props.projectTech.map((tech) => ( <li>{tech}</li> ))}
+            </ul>
             <a className="github-link" href={props.projectLink}><ImGithub/></a>
          </div>
       </div>
