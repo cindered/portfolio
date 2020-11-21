@@ -4,5 +4,5 @@
 <p align="left">
    This website was created using React.js hosted: 
    <br>
-   [Here]:https://cindered.github.io/portfolio/
 </p>
+[Live website link](https://cindered.github.io/portfolio/)
