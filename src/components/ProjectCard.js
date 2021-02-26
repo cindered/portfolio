@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
          </div>
          <div className="project-card-footer">
             <ul className="project-technologies">
-               {props.projectTech.map((tech) => ( <li>{tech}</li> ))}
+               {props.projectTechList.map((tech) => ( <li>{tech}</li> ))}
             </ul>
             <a className="github-link" href={props.projectLink}><ImGithub/></a>
          </div>

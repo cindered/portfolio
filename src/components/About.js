@@ -1,6 +1,7 @@
 import React from 'react';
+import Skills from './Skills.js';
 
-export default function Intro(props) {
+export default function About(props) {
    return(
       <div className="about-container">
          <p className="about-name">
@@ -15,32 +16,9 @@ export default function Intro(props) {
                Mobile Applications and Desktop Applications. Currently focussing on back-end development.
             </p>
          </section>
-         <section className="skills-container">
-            <p className="skills-title">Languages</p>
-            <ul className="skills">
-               <li>
-                  Java
-               </li>
-               <li>
-                  JavaScript
-               </li>
-               <li>
-                  Python
-               </li>
-               <li>
-                  C#
-               </li>
-               <li>
-                  PHP
-               </li>
-               <li>
-                  HTML
-               </li>
-               <li>
-                  CSS
-               </li>
-            </ul>
-         </section>
+         <Skills
+            skillsList={["Java","JavaScript", "Python", "C#", "PHP", "HTML", "CSS"]}
+         />
       </div>
    );
  }
