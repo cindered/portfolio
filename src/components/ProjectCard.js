@@ -5,13 +5,13 @@ export default function ProjectCard(props) {
 
    return(
       <div className="project-card">
-         <div className="card-top">
+         <div className="project-card-top">
             <p className="project-name">{props.projectName}</p>
          </div>
-         <div className="card-content">
-            {props.projectDesc}
+         <div className="project-card-content">
+            <p className="project-card-description">{props.projectDesc}</p>
          </div>
-         <div className="card-footer">
+         <div className="project-card-footer">
             <ul className="project-technologies">
                {props.projectTech.map((tech) => ( <li>{tech}</li> ))}
             </ul>
