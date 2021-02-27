@@ -15,7 +15,7 @@ export default function ProjectCard(props) {
             <ul className="project-technologies">
                {props.projectTechList.map((tech) => ( <li>{tech}</li> ))}
             </ul>
-            <a className="github-link" href={props.projectLink}><ImGithub/></a>
+            <a className="project-github-link" href={props.projectLink}><ImGithub/></a>
          </div>
       </div>
    );

@@ -96,6 +96,36 @@ body {
   color: #b3aebe;
 }
 
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 25px 0px 25px;
+}
+
+.skills {
+  margin: 0;
+  padding: 15px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: #b3aebe;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.skills-title{
+  margin: 0px;
+  padding: 0px;
+  color: #e6e2ee;
+}
+.skills li {
+  display: flex;
+  padding-right: 20px;
+  padding-top: 5px;
+
+}
+
 .projects-container{
   display: flex;
   flex-direction: column;
@@ -168,63 +198,17 @@ body {
   flex-direction: row;
   padding: 0px 8px 0px 8px;
 }
-
-
-.social{
-  top: 50%;
-  left: 30px;
-  position: fixed;
-  border-left: solid 1.5px #60d9e9;
-  border-image: linear-gradient(0deg, #12141f 5%, #e9be60 50%, #12141f 95%) 1;
-}
-.social-links {
-  padding: 25px 15px 25px 15px;
-  margin: 0;
-  list-style-type: none;
-}
-.social-links li {
-  padding: 10px 0px 10px 0px;
-  margin: 0;
-  list-style-type: none;
-}
-.social-links a {
-  text-decoration: none;
+.project-github-link{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 20px;
   color: #b3aebe;
   transition: 0.2s;
 }
-.social-links a:hover {
-  padding-left: 2.5px;
-  transition: 0.2s;
+.project-github-link:hover{
   color: #e9be60;
-}
-
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  padding: 45px 25px 0px 25px;
-}
-
-.skills {
-  margin: 0;
-  padding: 15px 0px 0px 0px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  color: #b3aebe;
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-.skills-title{
-  margin: 0px;
-  padding: 0px;
-  color: #e6e2ee;
-}
-.skills li {
-  display: flex;
-  padding-right: 20px;
-  padding-top: 5px;
-
+  transition: 0.2s;
 }
 
 .contact-container {
@@ -275,15 +259,30 @@ body {
   transition: 0.2s;
 }
 
-.github-link{
-  display: flex;
-  align-items: center;
-  padding-left: 15px;
-  font-size: 20px;
+.social{
+  top: 50%;
+  left: 30px;
+  position: fixed;
+  border-image: linear-gradient(0deg, #12141f 5%, #e9be60 50%, #12141f 95%) 1;
+}
+.social-links {
+  padding: 25px 15px 25px 15px;
+  margin: 0;
+  list-style-type: none;
+}
+.social-links li {
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  list-style-type: none;
+}
+.social-links a {
+  text-decoration: none;
   color: #b3aebe;
   transition: 0.2s;
 }
-.github-link:hover{
-  color: #e9be60;
+.social-links a:hover {
+  padding-left: 2.5px;
   transition: 0.2s;
+  color: #e9be60;
 }
+
