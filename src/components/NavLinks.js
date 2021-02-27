@@ -11,7 +11,7 @@ export default function NavLinks(props) {
                   to="about-container"
                   spy={true}
                   smooth={true}
-                  offset={-195}
+                  offset={-200}
                   duration={500}>about
                </Link>
             </li>
@@ -21,7 +21,7 @@ export default function NavLinks(props) {
                   to="projects-container"
                   spy={true}
                   smooth={true}
-                  offset={-80}
+                  offset={-200}
                   duration={500}>projects
                </Link>
             </li>
@@ -31,7 +31,7 @@ export default function NavLinks(props) {
                   to="contact-container"
                   spy={true}
                   smooth={true}
-                  offset={-301}
+                  offset={-275}
                   duration={500}>contact
                </Link>
             </li>
