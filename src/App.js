@@ -4,6 +4,7 @@ import About from './components/About.js';
 import Social from './components/Social.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
+import Footer from './components/Footer.js';
 import './App.css';
 
 export default class App extends Component {
@@ -15,6 +16,7 @@ export default class App extends Component {
         <About/>
         <Projects/>
         <Contact/>
+        <Footer/>
         <Social/>
       </div>
     );
