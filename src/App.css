@@ -264,6 +264,7 @@ body {
   top: 50%;
   left: 30px;
   position: fixed;
+  border-left: solid 1px #ffffff;
   border-image: linear-gradient(0deg, #12141f 5%, #e9be60 50%, #12141f 95%) 1;
 }
 .social-links {
