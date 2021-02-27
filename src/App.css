@@ -60,13 +60,13 @@ body {
 }
 
 .about-container {
-  height: 100vh;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
   margin-top: 175px;
+  margin-bottom: 195px;
   padding: 50px;
   font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -129,8 +129,9 @@ body {
 .projects-container{
   display: flex;
   flex-direction: column;
-  height: 100vh;
   width: 45%;
+  margin-bottom: 195px;
+  margin-top: 195px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -212,7 +213,6 @@ body {
 }
 
 .contact-container {
-  height: 100vh;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -220,7 +220,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 175px;
+  margin-top: 350px;
+  margin-bottom: 350px;
   padding: 50px;
   font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
