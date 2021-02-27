@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-
+/*#202538
+#60d9e9*/
 body {
   background-color: #202538;
   height: 100%;
@@ -11,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #202538;
+  background-color: #12141f;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -26,8 +27,8 @@ body {
   padding: 20px 30px 20px 30px;
   font-size: 16px;
   font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
-  color: #60d9e9;
-  background-color: #202538;
+  color: #e9be60;
+  background-color: #12141f;
 }
 
 .nav-links{
@@ -39,7 +40,7 @@ body {
 .nav-links li{
   font-size: 15px;
   font-family: montserrat, Verdana, Geneva, Tahoma, sans-serif;
-  color: #60d9e9;
+  color: #e9be60;
   padding-left: 15px;
   padding-right: 15px;
   letter-spacing: 2px;
@@ -49,12 +50,12 @@ body {
 }
 
 .nav-links li:hover{
-  color:#ded7eb;
+  color:#e6e2ee;
   transition: 0.2s;
 }
 
 .nav-links li > .active {
-  color: #ded7eb;
+  color: #e6e2ee;
   transition: 0.1s;
 }
 
@@ -74,7 +75,7 @@ body {
   display: flex;
   font-size: 50px;
   margin: 0;
-  color: #60d9e9;
+  color: #e9be60;
   letter-spacing: 5px;
 }
 .about-title{
@@ -83,7 +84,7 @@ body {
   padding-top: 25px;
   margin: 0px;
   font-size: 25px;
-  color: #ded7eb;
+  color: #e6e2ee;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -92,7 +93,7 @@ body {
   padding-right: 25px;
   margin: 0px;
   font-size: 18px;
-  color: #aca0c5;
+  color: #b3aebe;
 }
 
 .projects-container{
@@ -108,9 +109,9 @@ body {
 .project-name{
   margin: 0;
   font-size: 18px;
-  color: #ded7eb;
+  color: #e3dfe9;
   padding-left: 15px;
-  border-left: solid 2.5px #60d9e9;
+  border-left: solid 2.5px #e9be60;
 }
 .project-card{
   display: flex;
@@ -130,14 +131,14 @@ body {
   letter-spacing: 1px;
 }
 .project-card-content{
-  color: #ded7eb;
-  background-color:#1a1d2c;
+  color: #b3aebe;
+  background-color:#1b1f30;
   padding: 25px 25px 25px 25px;
   font-size: 14px;
   /* Added for card css test
   box-shadow: 0px 0px 10px 0px #1a1d2c; */
-  border-radius: 5px;
-  box-shadow: 0px 10px 15px -5px #1a1d2c;
+  border-radius: 2px;
+  box-shadow: 0px 10px 20px -5px #151825;
 }
 .project-card-description{
   margin: 0px;
@@ -148,7 +149,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  color: #aca0c5;
+  color: #b3aebe;
   /*background-color:#1a1d2c;*/
   padding: 25px 25px 25px 25px;
   font-size: 14px;
@@ -174,7 +175,7 @@ body {
   left: 30px;
   position: fixed;
   border-left: solid 1.5px #60d9e9;
-  border-image: linear-gradient(0deg, #202538 5%, #60d9e9 50%, #202538 95%) 1;
+  border-image: linear-gradient(0deg, #12141f 5%, #e9be60 50%, #12141f 95%) 1;
 }
 .social-links {
   padding: 25px 15px 25px 15px;
@@ -188,13 +189,13 @@ body {
 }
 .social-links a {
   text-decoration: none;
-  color: #aca0c5;
+  color: #b3aebe;
   transition: 0.2s;
 }
 .social-links a:hover {
   padding-left: 2.5px;
   transition: 0.2s;
-  color: #60d9e9;
+  color: #e9be60;
 }
 
 .skills-container {
@@ -210,7 +211,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-  color: #ded7eb;
+  color: #b3aebe;
   font-size: 12px;
   letter-spacing: 2px;
 }
@@ -244,7 +245,7 @@ body {
   padding: 25px;
   margin: 0px;
   font-size: 35px;
-  color: #ded7eb;
+  color: #e6e2ee;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -252,25 +253,25 @@ body {
   padding: 25px;
   margin: 0px;
   font-size: 20px;
-  color: #aca0c5;
+  color: #b3aebe;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .contact-button {
-  color: #60d9e9;
+  color: #e9be60;
   padding: 15px;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
-  border: solid 1px #60d9e9;
+  border: solid 1px #e9be60;
   transition: 0.2s;
 }
 
 .contact-button:hover{
-  border-top: solid 1px #202538;
-  border-bottom: solid 1px #202538;
-  color: #ded7eb;
+  border-top: solid 1px #12141f;
+  border-bottom: solid 1px #12141f;
+  color: #e6e2ee;
   transition: 0.2s;
 }
 
@@ -279,10 +280,10 @@ body {
   align-items: center;
   padding-left: 15px;
   font-size: 20px;
-  color: #aca0c5;
+  color: #b3aebe;
   transition: 0.2s;
 }
 .github-link:hover{
-  color: #60d9e9;
+  color: #e9be60;
   transition: 0.2s;
 }
